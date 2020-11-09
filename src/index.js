@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
+import App from './components/app';
 
 
+/* 
 const Header = () => {
   return <h2>Hello world!</h2>
 }
@@ -36,7 +37,9 @@ const App = () => {
         <Btn/>       
       </div>
     )
-}
+} 
+
+*/
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 
