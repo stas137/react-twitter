@@ -3,7 +3,7 @@ import './search-panel.css';
 
 const SearchPanel = () => {
     return (
-        <div>
+        <div className="flex-grow-1">
             <input
                 className="form-control search-input"
                 type="text"
