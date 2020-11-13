@@ -12,7 +12,7 @@ const PostList = ({props, onDelete, onToggleImportant, onToggleLiked}) => {
                     {...itemProps}
                     onDelete={() => onDelete(id)}
                     onToggleImportant={() => onToggleImportant(id)}
-                    onToggleLiked={() => onToggleLiked(id)}
+                    onToggleLiked={() => {return onToggleLiked(id)}}
                 />
             </li>
         )

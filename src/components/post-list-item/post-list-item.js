@@ -3,7 +3,6 @@ import './post-list-item.sass';
 
 export default class PostListItem extends Component {
 
-
     render(){
         const {label, onDelete, onToggleImportant, onToggleLiked, important, like} = this.props;
 
